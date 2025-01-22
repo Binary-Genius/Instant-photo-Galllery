@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+ <meta name="theme-color" content="#FF5733">
+  <meta charset="UTF-8">
+  <title>Diwakartech - Instant photo film galerie</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Caveat");
+
+.Container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.Picture {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px solid #fff;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+  user-select: none;
+  cursor: pointer;
+}
+.Picture-video {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 5px solid #fff;
+  border-radius: 3px;
+  background: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+  user-select: none;
+  cursor: pointer;
+}
+.Picture-img {
+  display: block;
+  width: 300px;
+  height: 300px;
+  pointer-events: none;
+}
+
+.Picture-note {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 70px;
+  padding: 12px 24px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.Picture-note-video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 70px;
+  padding: 12px 24px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.Network {
+  display: inline-block;
+  padding: 0 5px;
+}
+.Network-video {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.Network img {
+  width: 1.5rem;
+  aspect-ratio: 1 / 1;
+  vertical-align: middle;
+}
+
+.Network-video img {
+  width: 1.5rem;
+  aspect-ratio: 1 / 1;
+  vertical-align: middle;
+}
+/* --------------------- */
+/* Other styles          */
+/* --------------------- */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Caveat', serif;
+  overflow: hidden;
+}
+</style>
+<body>
+<!-- partial:index.partial.html -->
+<div class="Container">
+  <!-- last card -->
+  <div class="Picture-video" id="video">
+    <a href="video/Play.mp4" target="_blank">
+    <img src="https://i.ibb.co/bNSsTLF/17.png" width="300" height="480" alt="Thumbnail Image">
+</a>
+ <div class="Picture-note-video"><span>@Diwakartech- <a class="Network-video" href="https://binary-genius.github.io/www.portfolio-diwakartech.com/" target="_top"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111501.png" alt="personal-Dashboard" /></a><a class="Network" href="#" target="_top"><img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-vector-png-clipart-1.png" alt="twitter" /></a></span></div>
+  </div>
+  <!-- other cards -->
+  
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/SVDj2wW/1.png" alt="" />
+    <div class="Picture-note"><span>Over the clouds</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/wp2RpxB/2.png" alt="" />
+    <div class="Picture-note"><span>Golden Gate Bridge - San Francisco</span></div>
+  </div>
+
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/B4df5jG/3.png" alt="" />
+    <div class="Picture-note"><span>Over the clouds</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/7QvB1Ld/4.png" alt="" />
+    <div class="Picture-note"><span>Golden Gate Bridge - San Francisco</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/Brf3Khv/5.png" alt="" />
+    <div class="Picture-note"><span>Cat nose</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/5GCSdLH/6.png" alt="" />
+    <div class="Picture-note"><span>Mountain</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/VVZNy7X/07.png" alt="" />
+    <div class="Picture-note"><span>Central Park - New York</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/h7XxsvT/8.png" alt="" />
+    <div class="Picture-note"><span>Autumn</span></div>
+  </div>
+
+
+
+
+
+
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/xLnTTSr/9.png" alt="" />
+    <div class="Picture-note"><span>Cat nose</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/5MqXSGv/10.png" alt="" />
+    <div class="Picture-note"><span>Mountain</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/k2dWQ5g/11.png" alt="" />
+    <div class="Picture-note"><span>Central Park - New York</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/RBXhzYs/12.png" alt="" />
+    <div class="Picture-note"><span>Autumn</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/Y7myfKJ/13.png" alt="" />
+    <div class="Picture-note"><span>Coffee</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/vjXH8KK/14.png" alt="" />
+    <div class="Picture-note"><span>An Irish cow enjoying the wind on the beach</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/98qPgP7/15.png" alt="" />
+    <div class="Picture-note"><span>pelicans at the water's edge</span></div>
+  </div>
+  <div class="Picture">
+    <img class="Picture-img" src="https://i.ibb.co/1KqC10Y/16.png" alt="" />
+    <div class="Picture-note"><span>Waterfall</span></div>
+  </div>
+</div>
+<!-- partial -->
+  <script>
+  const pictures = document.querySelectorAll('.Picture');
+var previousTouch = undefined;
+
+function updateElementPosition(element, event) {
+  var movementX, movementY;
+
+  if (event.type === 'touchmove') {
+    const touch = event.touches[0];
+    movementX = previousTouch ? touch.clientX - previousTouch.clientX : 0;
+    movementY = previousTouch ? touch.clientY - previousTouch.clientY : 0;
+    console.log('touch', { movementX: movementX, newX: touch.clientX, oldX: previousTouch && previousTouch.clientX });
+    previousTouch = touch;
+  } else {
+    movementX = event.movementX;
+    movementY = event.movementY;
+  }
+  
+  const elementY = parseInt(element.style.top || 0) + movementY;
+  const elementX = parseInt(element.style.left|| 0) + movementX;
+
+  element.style.top = elementY + "px";
+  element.style.left = elementX + "px";
+}
+
+function startDrag(element, event) {
+
+  const updateFunction = (event) => updateElementPosition(element, event);
+  const stopFunction = () => stopDrag({update: updateFunction, stop: stopFunction});
+  document.addEventListener("mousemove", updateFunction);
+  document.addEventListener("touchmove", updateFunction);
+  document.addEventListener("mouseup", stopFunction);
+  document.addEventListener("touchend", stopFunction);
+  
+}
+
+function stopDrag(functions) {
+  previousTouch = undefined;
+  document.removeEventListener("mousemove", functions.update);
+  document.removeEventListener("touchmove", functions.update);
+  document.removeEventListener("mouseup", functions.stop);
+  document.removeEventListener("touchend", functions.stop);
+}
+
+pictures.forEach(picture => {
+  const range = 100;
+  const randomX = Math.random() * (range * 2) - range;
+  const randomY = Math.random() * (range * 2) - range;
+  const randomRotate = Math.random() * (range / 2) - range / 4;
+  const startFunction = (event) => startDrag(picture, event);
+  picture.style.top = `${randomY}px`;
+  picture.style.left = `${randomX}px`;
+  picture.style.transform = `translate(-50%, -50%) rotate(${randomRotate}deg)`;
+  picture.addEventListener("mousedown", startFunction);
+  picture.addEventListener("touchstart", startFunction);
+});
+  </script>
+
+</body>
+</html>
